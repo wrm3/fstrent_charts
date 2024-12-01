@@ -2,6 +2,10 @@
 set /p BUMP_TYPE="Enter bump type (major/minor/patch): "
 set /p MESSAGE="Enter commit message: "
 
+:: Git commands
+git add .
+git commit -m "%MESSAGE%"
+
 :: Run bumpversion
 bumpversion %BUMP_TYPE%
 
