@@ -1,7 +1,8 @@
 #<=====>#
 # Description
 #<=====>#
-
+"""FSTrent Charts - Color Chart options for terminal output."""
+__version__ = "1.0.0"
 
 
 #<=====>#
