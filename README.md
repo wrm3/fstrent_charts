@@ -105,30 +105,6 @@ for row in rows:
 chrt.chart_bottom()
 ```
 
-## Available Colors
-
-### Basic Colors
-```python
-from fstrent_charts import (
-    K,    # Black
-    R,    # Red
-    G,    # Green
-    Y,    # Yellow
-    B,    # Blue
-    M,    # Magenta
-    C,    # Cyan
-    W,    # White
-    LGy,  # Light Gray
-    DGy,  # Dark Gray
-    LR,   # Light Red
-    LG,   # Light Green
-    LY,   # Light Yellow
-    LB,   # Light Blue
-    LM,   # Light Magenta
-    LC,   # Light Cyan
-)
-```
-
 ## Development
 
 1. Clone the repository:
