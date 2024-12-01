@@ -888,6 +888,10 @@ def chart_bottom(in_str='', len_cnt=250, align='left', bold=True, italic=False, 
 #<=====>#
 
 def demo1():
+	print('')
+	print('')
+	print('demo1')
+
 	chart_json = {
 		'title': 'BTC OHLCV Data',
 		'data': [
@@ -930,6 +934,11 @@ def demo1():
 #<=====>#
 
 def demo2():
+
+	print('')
+	print('')
+	print('demo2')
+
 	df = pd.DataFrame([
 			{"timestamp":"2024-12-01 08:48:00", "open":97140.78, "high":97147.51, "low":97112.59, "close": 97124.75, "volume": 3.06128143},
 			{"timestamp":"2024-12-01 08:49:00", "open":97124.76, "high":97169.10, "low":97108.75, "close": 97168.99, "volume": 1.61392088},
@@ -1034,6 +1043,9 @@ def demo2():
 #<=====>#
 
 def demo3():
+	print('')
+	print('')
+	print('demo3')
 
 	poss = [
 		{'pos_id': 32814, 'symb': 'USDC', 'prod_id': 'PNG-USDC', 'pos_stat': 'CLOSE', 'pos_begin_dttm': datetime.datetime(2024, 12, 1, 8, 10, 26), 'pos_end_dttm': datetime.datetime(2024, 12, 1, 18, 45, 22), 'age_mins': 335, 'tot_out_cnt': Decimal('6.000000000000'), 'tot_in_cnt': Decimal('5.982007500000'), 'buy_fees_cnt': Decimal('0.014962593516'), 'sell_fees_cnt_tot': Decimal('0.014992500000'), 'fees_cnt_tot': Decimal('0.029955093516'), 'buy_cnt': Decimal('15.151993434136'), 'sell_cnt_tot': Decimal('15.000000000000'), 'hold_cnt': Decimal('0.151993434136'), 'pocket_cnt': Decimal('0.151993434136'), 'clip_cnt': Decimal('0E-12'), 'pocket_pct': Decimal('10.000000000000'), 'clip_pct': Decimal('0E-12'), 'sell_order_cnt': 1, 'sell_order_attempt_cnt': 1, 'prc_buy': Decimal('0.395987500000'), 'prc_curr': Decimal('0.398800500000'), 'prc_high': Decimal('0.428580000000'), 'prc_low': Decimal('0.372900000000'), 'prc_chg_pct': Decimal('0.710400000000'), 'prc_chg_pct_high': Decimal('6.973100000000'), 'prc_chg_pct_low': Decimal('-5.830400000000'), 'prc_chg_pct_drop': Decimal('-6.260000000000'), 'prc_sell_avg': Decimal('0.398800500000'), 'val_curr': Decimal('0.060615057530'), 'val_tot': Decimal('0.060615057530'), 'gain_loss_amt_est': Decimal('0.083525363806'), 'gain_loss_amt_est_high': Decimal('0.418384418700'), 'gain_loss_amt_est_low': Decimal('-0.349821648411'), 'gain_loss_amt': Decimal('0.042622557530'), 'gain_loss_amt_net': Decimal('0.103237615060'), 'gain_loss_pct_est': Decimal('1.392100000000'), 'gain_loss_pct_est_high': Decimal('6.973100000000'), 'gain_loss_pct_est_low': Decimal('-5.830400000000'), 'gain_loss_pct': Decimal('0.710400000000'), 'buy_strat_type': 'up', 'buy_strat_name': 'nwe_3row', 'buy_strat_freq': '1d', 'sell_strat_type': 'profit', 'sell_strat_name': 'trail_profit', 'sell_strat_freq': '', 'bo_id': 32468, 'bo_uuid': 'd1e7d87f-f530-4a97-98f7-fc99a0e344a5', 'buy_curr_symb': 'PNG', 'spend_curr_symb': 'USDC', 'sell_curr_symb': 'PNG', 'recv_curr_symb': 'USDC', 'fees_curr_symb': 'USDC', 'base_curr_symb': 'PNG', 'base_size_incr': Decimal('1.000000000000'), 'base_size_min': Decimal('1.000000000000'), 'base_size_max': Decimal('116620741.418695990000'), 'quote_curr_symb': 'USDC', 'quote_size_incr': Decimal('0.000010000000'), 'quote_size_min': Decimal('1.000000000000'), 'quote_size_max': Decimal('10000000.000000000000'), 'sell_yn': 'Y', 'hodl_yn': 'N', 'sell_block_yn': 'N', 'sell_force_yn': 'N', 'test_tf': 0, 'test_txn_yn': 'N', 'force_sell_tf': 0, 'ignore_tf': 0, 'error_tf': 0, 'reason': '', 'note1': None, 'note2': None, 'note3': None, 'mkt_name': None, 'mkt_venue': None, 'pos_type': 'SPOT', 'buy_asset_type': None, 'check_mkt_dttm': datetime.datetime(2024, 12, 1, 8, 10, 56), 'check_last_dttm': datetime.datetime(2024, 12, 1, 13, 45, 17), 'add_dttm': datetime.datetime(2024, 12, 1, 8, 10, 56), 'upd_dttm': datetime.datetime(2024, 12, 1, 8, 10, 56), 'del_dttm': datetime.datetime(2024, 12, 1, 8, 10, 56), 'dlm': datetime.datetime(2024, 12, 1, 13, 45, 56)},
