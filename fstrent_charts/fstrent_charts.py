@@ -1350,25 +1350,25 @@ def demo3():
 #		pos['pos_end_dttm'] = pos['pos_end_dttm'].strftime('%m-%d-%Y %H:%M')
 		if pos['test_txn_yn'] == 'N': pos['test_txn_yn'] = ''
 
-		msg = ''
-		msg += f'{pos['prod_id']:<12} | '
-		msg += f'{pos['test_txn_yn']:^1} | '
-		msg += f'{pos['pos_id']:<6} | '
-		msg += f'{pos['buy_strat_name']:>10} | '
-		msg += f'{pos['buy_strat_freq']:>5} | '
-		msg += f'{pos['sell_strat_name']:>14} | '
-		msg += f'{pos['report_age']:>10} | '
+		msg = ""
+		msg += f"{pos['prod_id']:<12} | "
+		msg += f"{pos['test_txn_yn']:^1} | "
+		msg += f"{pos['pos_id']:<6} | "
+		msg += f"{pos['buy_strat_name']:>10} | "
+		msg += f"{pos['buy_strat_freq']:>5} | "
+		msg += f"{pos['sell_strat_name']:>14} | "
+		msg += f"{pos['report_age']:>10} | "
 		msg += f"{pos['pos_end_dttm']:>16} | "
-		msg += f'$ {pos['tot_out_cnt']:>14.8f} | '
-		msg += f'{pos['prc_buy']:>14.8f} | '
-		msg += f'{pos['prc_curr']:>14.8f} | '
-		msg += f'{pos['gain_loss_pct']:>8.2f} % | '
-		msg += f'{pos['gain_loss_pct_est']:>8.2f} % | '
-		msg += f'{pos['gain_loss_pct_est_high']:>8.2f} % | '
-		msg += f'{pos['prc_chg_pct_drop']:>8.2f} % | '
-		msg += f'{pos['gain_loss_amt']:>14.8f} | '
-		msg += f'{pos['gain_loss_amt_est']:>14.8f} | '
-		msg += f'{pos['gain_loss_amt_est_high']:>14.8f}'
+		msg += f"$ {pos['tot_out_cnt']:>14.8f} | "
+		msg += f"{pos['prc_buy']:>14.8f} | "
+		msg += f"{pos['prc_curr']:>14.8f} | "
+		msg += f"{pos['gain_loss_pct']:>8.2f} % | "
+		msg += f"{pos['gain_loss_pct_est']:>8.2f} % | "
+		msg += f"{pos['gain_loss_pct_est_high']:>8.2f} % | "
+		msg += f"{pos['prc_chg_pct_drop']:>8.2f} % | "
+		msg += f"{pos['gain_loss_amt']:>14.8f} | "
+		msg += f"{pos['gain_loss_amt_est']:>14.8f} | "
+		msg += f"{pos['gain_loss_amt_est_high']:>14.8f}"
 
 		if pos['gain_loss_pct'] >= 22:
 			msg = cs(msg, font_color='#FFFFFF', bg_color='#228B22')
